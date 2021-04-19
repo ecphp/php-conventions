@@ -1,0 +1,2 @@
+parameters:
+  tasks.phpcsfixer.config: ./vendor/ecphp/php-conventions/config/psr12/php_cs_fixer.config.php

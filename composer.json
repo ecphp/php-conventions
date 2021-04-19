@@ -1,0 +1,22 @@
+{
+    "name": "ecphp/php-conventions",
+    "type": "library",
+    "description": "ECPHP PHP conventions.",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">= 7.4",
+        "drupol/php-conventions": "^5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "EcPhp\\PhpConventions\\": "./src/"
+        }
+    },
+    "scripts": {
+        "changelog-unreleased": "docker-compose run auto_changelog -c .auto-changelog -u",
+        "changelog-version": "docker-compose run auto_changelog -c .auto-changelog -v"
+    }
+}

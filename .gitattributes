@@ -1,0 +1,10 @@
+/.github export-ignore
+/docker export-ignore
+/spec export-ignore
+.auto-changelog export-ignore
+.editorconfig export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+docker-composer.yaml export-ignore
+/grumphp.yml export-ignore
+/.php-cs-fixer.dist.php export-ignore
