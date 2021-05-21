@@ -15,6 +15,10 @@ This package has been inspired by [drupol/php-conventions][19] and
 
 ## Features
 
+Based on [GrumPHP][5], this tool will run a set of quality control tools via a
+git hook. The user is free to disable the git hook and run the tool manually
+instead, see the [documentation][24] to know more about that.
+
 The default [GrumPHP][5] configuration ships with the following checks:
 
 * [License file][21] creation (*BSD-3-Clause by default*),
@@ -169,3 +173,4 @@ For more detailed changelogs, please check [the release changelogs][17].
 [21]: https://packagist.org/packages/ergebnis/license
 [22]: https://packagist.org/packages/maglnet/composer-require-checker
 [23]: https://packagist.org/packages/vimeo/psalm
+[24]: https://github.com/phpro/grumphp/blob/master/doc/commands.md
