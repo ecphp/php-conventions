@@ -1,6 +1,6 @@
 imports:
-    - { resource: tasks.phpcsfixer.config.yml }
     - { resource: ../../../../vendor/drupol/php-conventions/config/psr12/grumphp.yml }
+    - { resource: tasks.phpcsfixer.config.yml }
 
 parameters:
     # Grumphp license task
