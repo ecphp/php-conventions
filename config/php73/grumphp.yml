@@ -6,4 +6,4 @@ parameters:
     # Grumphp license task
     tasks.license.name: BSD-3-Clause
     tasks.license.date_from: 2019
-    tasks.license.holder: ECPHP
+    tasks.license.holder: European Union
